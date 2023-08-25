@@ -1,0 +1,30 @@
+
+.logo{
+  font-weight: 500;
+  text-decoration: italic !important;
+  color: cadetblue;
+  text-align: center;
+  padding: 24px;
+}
+
+.heading {
+  color: cadetblue;
+  display: inline;
+  margin: 23px 0px;
+  font-weight: 300;
+}
+.heading:hover{
+  border-bottom: 4px solid cadetblue;
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.footer{
+  
+  position: relative;
+  bottom: 0;
+  
+text-align: center;
+ 
+
+}
