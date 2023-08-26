@@ -19,11 +19,12 @@ function App() {
 
   const [todos, setTodos] = useState<TODO[]>([])
 
+  // Fetch Todos in First Render
   useEffect(() => {
     FetchTodos()
   }, [])
 
-  //
+  // Fetch Todos
   const FetchTodos = () => {
     const data = JSON.parse(window.localStorage.getItem('Todos') || "")
     if (typeof data === 'string')
